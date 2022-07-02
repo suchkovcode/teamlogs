@@ -38,7 +38,7 @@
    "description": "Транскрибация аудио и видео в текст. Расшифровка речи, расстановка знаков препинания, редактирование в браузере, экспорт в *.docx, *.srt",
    "dir": "ltr",
    "lang": "ru",
-   "display": "standalone",
+   "display": "minimal-ui",
    "name": "Teamlogs",
    "short_name": "Teamlogs",
    "orientation": "any",
