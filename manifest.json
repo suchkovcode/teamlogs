@@ -23,7 +23,7 @@
   },
   {
    "src": "img/screenshots/screen-2.png",
-    "sizes": "2880/1800",
+    "sizes": "2880x1800",
     "type": "image/png",
     "description": "Screen-2"
   },
