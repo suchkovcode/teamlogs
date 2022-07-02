@@ -1,0 +1,46 @@
+{
+  "background_color": "#ffffff",
+  "description": "Транскрибация аудио и видео в текст. Расшифровка речи, расстановка знаков препинания, редактирование в браузере, экспорт в *.docx, *.srt",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Teamlogs",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Teamlogs",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "Servise"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/img/icon/favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/img/icon/favicon-60x60.png",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "/img/icon/favicon-76x76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "/img/icon/favicon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "img/png/preview.png",
+      "type": "image/png",
+      "sizes": "1200x628"
+    },
+    {
+      "src": "/img/icon/favicon-270x270"
+    }
+  ],
+  "shortcuts": []
+}
