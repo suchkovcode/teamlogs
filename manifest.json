@@ -47,7 +47,8 @@
    "icons": [
      {
        "src": "img/icon/favicon.ico",
-       "type": "image/x-icon"
+       "type": "image/x-icon",
+       "sizes": "64x64"
      },
      {
        "src": "img/icon/favicon-60x60.png",
