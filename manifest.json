@@ -1,4 +1,18 @@
 {
+"shortcuts": [
+  {
+    "name": "Teamlogs",
+    "short_name": "Teamlogs",
+    "description": "Транскрибация аудио и видео в текст. Расшифровка речи, расстановка знаков препинания, редактирование в браузере, экспорт в *.docx, *.srt",
+    "url": "/",
+    "icons": [
+      {
+        "src": "img/icon/favicon-192x192.png",
+        "sizes": "192x192"
+      }
+    ]
+  }
+], 
 "screenshots": [
   {
    "src": "img/screenshots/screen-1.png",
@@ -59,8 +73,7 @@
      {
       "src": "img/icon/favicon-512x512.png",
        "type": "image/png",
-       "sizes": "512x512",
-       "purpose": "any"
+       "sizes": "512x512"
      }
    ]
  }
