@@ -50,7 +50,7 @@
      {
        "src": "img/icon/favicon.ico",
        "type": "image/x-icon",
-       "sizes": "64x64"
+       "sizes": "30x30"
      },
      {
        "src": "img/icon/favicon-60x60.png",
@@ -76,7 +76,8 @@
      {
       "src": "img/icon/favicon-512x512.png",
        "type": "image/png",
-       "sizes": "512x512"
+       "sizes": "512x512",
+       "purpose": "maskable"
      }
    ]
  }
