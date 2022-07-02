@@ -1,0 +1,37 @@
+@media all and (min-width: 576px) {
+   .section-1 {
+      margin-bottom: 80px;
+   }
+}
+@media all and (min-width: 768px) {
+   .section-1 {
+      margin-bottom: 135px;
+      padding-bottom: 300px; 
+   }
+   .section-1__hero {
+      position: absolute;
+      width: 100%;
+      left: 0;
+   }
+   .section-1__img {
+      width: 615px;
+   }
+}
+@media all and (min-width: 992px) {
+   .section-1 {
+      margin-bottom: 175px;
+      padding-bottom: 450px; 
+   }
+   .section-1__img {
+      width: 940px;
+   }
+}
+@media all and (min-width: 1200px) {
+   .section-1 {
+      margin-bottom: 240px;
+      padding-bottom: 550px; 
+   }
+   .section-1__img {
+      width: 1160px;
+   }
+}

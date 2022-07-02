@@ -1,0 +1,42 @@
+@media all and (min-width: 576px) {
+   .header {
+      contain: layout paint;
+   }
+   .header__burger-label {
+      display: none;
+   }
+   .cover {
+     display: none;
+   }
+   .header__menu-container {
+      position: static;
+      visibility: visible;
+      flex-flow: row;
+      align-items: center;
+      justify-content:flex-end;
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+      background-color: transparent;
+      transition: none;
+   }
+   .header__nav-list {
+      display: flex;
+      flex-flow: row;
+      gap: 30px;
+      padding-bottom: 0px;
+   }
+}
+@media all and (min-width: 992px) {
+   .header {
+      margin: 20px 0;
+   }
+   .header__menu-container {
+      gap: 30px;
+   }
+}
+@media all and (min-width: 1200px) {
+   .header {
+      padding: 0 45px 0 35px;
+   }
+}

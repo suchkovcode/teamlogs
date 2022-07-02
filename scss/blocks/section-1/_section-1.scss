@@ -1,0 +1,20 @@
+.section-1 {
+   overflow-x: hidden;
+   margin-bottom: 60px;
+   padding: clamp(3.75rem, 2.4563rem + 6.0878vw, 6.87rem)   /* 30px - 110px */
+            clamp(0.93rem, -0.2393rem + 5.5024vw, 3.75rem); /* 15px - 60px */
+   border-radius: 20px;
+   background-color: var(--color_primary);
+}
+.section-1__content {
+   display: flex;
+   flex-flow: column;
+   gap: 30px;
+   margin-bottom: clamp(2.5rem, 1.4634rem + 4.8780vw, 5rem);
+}
+.section-1__img {
+   margin: 0 auto;
+   height: auto;
+   border-radius: 20px;
+   box-shadow: 0px 4px 70px 0px rgb(27 27 40 / 10%);
+}
