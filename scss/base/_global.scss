@@ -1,6 +1,9 @@
 .page {
    padding: 0 15px;
 }
+.main {
+   contain: layout paint;
+}
 .container {
    max-width: 1160px;
    margin: 0 auto;
