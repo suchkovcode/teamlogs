@@ -1,7 +1,7 @@
 const sitemapGen = () => {
    return $.gulp.src($.path.sitemap.src)
       .pipe($.app.sitemap({
-            siteUrl: "http://www.amazon.com",
+            siteUrl: "https://teamlogs.ru/",
             fileName: "sitemap.xml",
             changefreq: "weekly",
             priority: "0.8",

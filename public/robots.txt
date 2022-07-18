@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Host: teamlogs.ru
-Sitemap: http://teamlogs.ru/sitemap.xml
+Sitemap: https://teamlogs.ru/sitemap.xml

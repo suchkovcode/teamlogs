@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"><url>
-        <loc>http://www.amazon.com/</loc>
+        <loc>https://teamlogs.ru/</loc>
     
         <image:image>
-            <image:loc>http://www.amazon.com/img/svg/section-5__hero-1.svg</image:loc>
+            <image:loc>https://teamlogs.ru/img/svg/section-5__hero-1.svg</image:loc>
         </image:image>
     
         <image:image>
-            <image:loc>http://www.amazon.com/img/svg/section-5__hero-2.svg</image:loc>
+            <image:loc>https://teamlogs.ru/img/svg/section-5__hero-2.svg</image:loc>
         </image:image>
     
         <image:image>
-            <image:loc>http://www.amazon.com/img/svg/section-5__hero-3.svg</image:loc>
+            <image:loc>https://teamlogs.ru/img/svg/section-5__hero-3.svg</image:loc>
         </image:image>
     
-        <lastmod>2022-07-18T18:12:55.967Z</lastmod>
+        <lastmod>2022-07-18T19:15:31.015Z</lastmod>
     
         <changefreq>weekly</changefreq>
     
         <priority>0.8</priority>
     </url><url>
-        <loc>http://www.amazon.com/oferta.html</loc>
+        <loc>https://teamlogs.ru/oferta.html</loc>
     
-        <lastmod>2022-07-18T18:12:55.967Z</lastmod>
-    
-        <changefreq>weekly</changefreq>
-    
-        <priority>0.8</priority>
-    </url><url>
-        <loc>http://www.amazon.com/privacy.html</loc>
-    
-        <lastmod>2022-07-18T18:12:55.967Z</lastmod>
+        <lastmod>2022-07-18T19:15:31.015Z</lastmod>
     
         <changefreq>weekly</changefreq>
     
         <priority>0.8</priority>
     </url><url>
-        <loc>http://www.amazon.com/return.html</loc>
+        <loc>https://teamlogs.ru/privacy.html</loc>
     
-        <lastmod>2022-07-18T18:12:55.967Z</lastmod>
+        <lastmod>2022-07-18T19:15:31.015Z</lastmod>
+    
+        <changefreq>weekly</changefreq>
+    
+        <priority>0.8</priority>
+    </url><url>
+        <loc>https://teamlogs.ru/return.html</loc>
+    
+        <lastmod>2022-07-18T19:15:31.015Z</lastmod>
     
         <changefreq>weekly</changefreq>
     
