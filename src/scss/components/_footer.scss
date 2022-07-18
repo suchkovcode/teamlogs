@@ -1,0 +1,158 @@
+.footer {
+   padding: 50px 15px;
+   contain: layout paint;
+   // border: 1px solid black;
+}
+.footer__content {
+   max-width: 460px;
+   margin: 0 auto;
+}
+.footer__social-box {
+   display: flex;
+   gap: 15px;
+   margin-bottom: 15px;
+}
+.footer__tg-link,
+.footer__vk-link {
+   display: block;
+   position: relative;
+   width: 50px;
+   height: 50px;
+}
+
+.footer__tg-img-2 {
+   position: absolute;
+   top: 0;
+   visibility: hidden;
+}
+.footer__tg-link:hover > 
+.footer__tg-img-2 {
+   visibility: visible;
+}
+.footer__vk-img-2 {
+   position: absolute;
+   top: 0;
+   visibility: hidden;
+}
+.footer__vk-link:hover > 
+.footer__vk-img-2 {
+   visibility: visible;
+}
+
+.footer__nav {
+   margin-bottom: 20px
+}
+
+.footer__nav-list {
+   display: flex;
+   flex-flow: column;
+   gap: 10px;
+}
+.footer__nav-item > a {
+   font: 400 14px/1.5 'Inter';
+   color: var(--color_text);
+   transition: all 0.2s linear;
+}
+.footer__nav-item > a:hover {
+   color: var(--color_primary);
+}
+
+
+.footer__text-box {
+   display: flex;
+   flex-flow: column;
+   gap: 10px;
+}
+
+.footer__city,
+.footer__copy,
+.footer__company {
+   font: 400 14px/1.5 'Inter';
+   color: var(--color_text);
+}
+.footer__company {
+   opacity: 0.3;
+}
+
+.separator {
+   display: block;
+   width: 100%;
+   height: 2px;
+   margin-block-start: 0;
+   margin-block-end: 0;
+   margin-inline-start: 0;
+   margin-inline-end: 0;
+   margin: 30px 0;
+   border: none;
+   border-radius: 2px;
+   background-color: #f5f5f5;
+}
+
+
+@media all and(min-width: 576px) {
+   .footer__nav-list {
+      flex-flow: row wrap; 
+   }
+
+   .nav-item__1 {
+      flex: 0 0 calc(10% - 15px);
+   }
+   .nav-item__2 {
+      flex: 1 0 calc(50% - 15px);
+   }
+}
+
+
+@media all and(min-width: 768px) {
+   .footer__content {
+      max-width: 620px;
+   }
+   .footer__box-1 {
+      display: flex;
+      gap: 30px;
+   }
+
+
+   .footer__box-2 {
+      order: 1;
+   }
+   .footer__social-box {
+      order: 2;
+   }
+}
+
+
+@media all and(min-width: 992px) {
+   .footer__content {
+      max-width: 940px;
+   }
+   .footer__box-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+   }
+
+   .footer__box-2 {
+      display: flex;
+      flex-flow: row;
+   }
+   .footer__nav {
+      flex: 1 0 50%;
+      margin-bottom: 0px
+   }
+   .footer__text-box {
+      flex: 1 0 50%;
+   }
+   .footer__social-box {
+      order: 2;
+      margin-bottom: 0px;
+   }
+}
+
+
+@media all and(min-width: 992px) {
+   .footer__content {
+      max-width: 1160px;
+   }
+}
