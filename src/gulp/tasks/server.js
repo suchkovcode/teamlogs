@@ -1,5 +1,5 @@
 const server = () => {
-   $.browserSync.init({server: "./build", port: 3000, notify: false});
+   $.browserSync.init({server: "./build", port: 5500, notify: false, watch: true, logLevel: "info", online: true, open: "external", reloadDebounce: 1000, codeSync: true });
    $.gulp.watch($.path.html.watch,       $.task.html);
    $.gulp.watch($.path.html.src.comp,    $.task.html);
    $.gulp.watch($.path.css.watch,        $.task.styles);
