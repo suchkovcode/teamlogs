@@ -55,7 +55,7 @@
    <meta name="twitter:card" content="summary_large_image" />
 </head>
 <body class="page">
-   <!--=include ../components/header.html -->
+   @include('html/components/header.html')
    <main class="main">
       <section class="section-1" id="hero">
          <div class="container">
@@ -319,7 +319,7 @@
                <h2 class="title-2 title--white section-6__title">What is the price</h2>
                <div class="price">
                   <div class="price__header">
-                     <h3 class="title-3 price__title">from 7 ₽/minute </h3>
+                     <h3 class="title-3 price__title">from 1 $/minute </h3>
                      <ul class="price__bullet">
                         <li class="price__bullet-item">MP4, MP3, M4A и др.</li>
                         <li class="price__bullet-item">Deciphering speech in text</li>
@@ -353,7 +353,7 @@
          </div>
       </section>
    </main>
-   <!--=include ../components/footer.html -->
+   @include('html/components/footer.html')
    <script type="module" async>
       import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
       const el = document.createElement('pwa-update');
