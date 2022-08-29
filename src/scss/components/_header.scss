@@ -137,7 +137,7 @@
    color: var(--color_primary);
 }
 
-@media all and (min-width: 576px) {
+@media (min-width: 576px) {
    .header {
       contain: layout paint;
    }
@@ -166,7 +166,7 @@
       padding-bottom: 0px;
    }
 }
-@media all and (min-width: 992px) {
+@media (min-width: 992px) {
    .header {
       margin: 20px 0;
    }
@@ -174,7 +174,7 @@
       gap: 30px;
    }
 }
-@media all and (min-width: 1200px) {
+@media (min-width: 1200px) {
    .header {
       padding: 0 45px 0 35px;
    }

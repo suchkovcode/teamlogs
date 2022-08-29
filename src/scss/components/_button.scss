@@ -50,17 +50,17 @@
    font: 500 24px/1.5 'Inter';
 }
 
-@media all and (min-width: 576px) {
+@media (min-width: 576px) {
    .button-box--display {
       display: none;
    }
 }
-@media all and (min-width: 768px) {
+@media (min-width: 768px) {
    .btn-primary--section-5 {
       max-width: 480px;
    }
 }
-@media all and (min-width: 992px) {
+@media (min-width: 992px) {
    .button-box {
       display: flex;
       flex-flow: row;
@@ -84,7 +84,7 @@
       max-width: 300px;
    }
 }
-@media all and (min-width: 1200px) {
+@media (min-width: 1200px) {
    /* Modife */
    .btn-primary--section-1 {
       height: 90px;
