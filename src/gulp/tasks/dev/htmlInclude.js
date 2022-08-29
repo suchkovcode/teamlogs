@@ -13,6 +13,7 @@ const htmlInclude = () => {
             prefix: "@",
             basepath: "./src/",
          })
-      );
+      )
+      .pipe($.browserSync.stream());
 };
 module.exports = htmlInclude;

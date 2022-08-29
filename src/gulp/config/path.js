@@ -1,12 +1,20 @@
 const path = {
+   admin: {
+      src: "./src/admin/**/*",
+      dev: "./build/admin/",
+      pub: "./public/admin/",
+   },
    html: {
       src: {
-         page: "./src/html/page/*.html",
+         page: ["./src/html/page/*.html"],
          comp: "./src/html/components/*.html",
       },
       dev: "./build/",
       pub: "./public/",
-      watch: "./src/html/*.html",
+      watch: {
+         page: "./src/html/page/*.html",
+         comp: "./src/html/components/*.html",
+      },
    },
    css: {
       src: "./src/scss/**/*.{scss,sass}",
@@ -15,10 +23,10 @@ const path = {
       watch: "./src/scss/**/*.{scss,sass}",
    },
    js: {
-      src: "./src/js/**/*",
+      src: "./src/js/script.js",
       dev: "./build/js/",
       pub: "./public/js/",
-      watch: "./src/js/**/*",
+      watch: ["./src/js/**/*.js", "!./src/js/vendor.js" ]
    },
    img: {
       src: "./src/img/**/*",
@@ -31,8 +39,8 @@ const path = {
          dev: "./build/img/png/*.png",
          pub: "./public/img/png/*.png",
       },
-      dev: "./build/img/webp",
-      pub: "./public/img/webp",
+      dev: "./build/img/webp/",
+      pub: "./public/img/webp/",
       watch: "./build/img/png/*.png",
    },
    fonts: {
@@ -47,47 +55,16 @@ const path = {
       pub: "./public/video/",
       watch: "./src/video/**/*",
    },
-   video: {
-      src: "./src/video/*",
-      dev: "./build/video/",
-      pub: "./public/video/",
-      watch: "./src/video/**/*",
-   },
-   vendorCSS: {
-      src: "./src/libs/**/*.css",
-      dev: "./build/css/",
-      pub: "./public/css/",
-      watch: "./src/libs/**/*.css",
-   },
    vendorJs: {
-      src: "./src/libs/**/*.js",
+      src: "./src/js/vendor.js",
       dev: "./build/js/",
       pub: "./public/js/",
-      watch: "./src/libs/**/*.js",
-   },
-   favicon: {
-      src: "./src/img/png/favicon.png",
-      dev: "./build/img/favicon/",
-      pub: "./public/img/favicon/",
-   },
-   sitemap: {
-      src: "./public/**/*.html",
-      pub: "./public/",
+      watch: "./src/js/vendor.js",
    },
    zip: {
       src: "./public/**/*",
       pub: "./",
    },
-   admin: {
-      src: "./src/admin/**/*",
-      dev: "./build/admin/",
-      pub: "./public/admin/",
-   },
-   other: {
-      src: "./src/*.{json,js,txt}",
-      dev: "./build/",
-      pub: "./public/",
-   },
-}
+};
 
 module.exports = path;

@@ -1,3 +1,9 @@
+const admin = () => {
+   return $.gulp
+      .src($.path.admin.src)
+      .pipe($.app.size({ title: "Размер файлов:" }))
+      .pipe($.gulp.dest($.path.admin.dev));
+};
 const img = () => {
    return $.gulp
       .src($.path.img.src)
@@ -8,16 +14,14 @@ const img = () => {
             title: "Error running something",
          })
       )
-      .pipe($.app.size({ title: "Размер до сжатия:" }))
-      .pipe($.app.imagemin({ verbose: true }))
-      .pipe($.app.size({ title: "Размер после сжатия:" }))
-      .pipe($.gulp.dest($.path.img.pub));
+      .pipe($.app.size({ title: "Размер файлов:" }))
+      .pipe($.gulp.dest($.path.img.dev));
 };
 const fonts = () => {
    return $.gulp
       .src($.path.fonts.src)
       .pipe($.app.size({ title: "Размер файлов:" }))
-      .pipe($.gulp.dest($.path.fonts.pub));
+      .pipe($.gulp.dest($.path.fonts.dev));
 };
 const js = () => {
    return $.gulp
@@ -31,8 +35,9 @@ const js = () => {
       )
       .pipe(
          $.compiler({
-            mode: "production",
-            cache: false,
+            mode: "development",
+            cache: true,
+            devtool: "source-map",
             output: {
                filename: "script.min.js",
             },
@@ -47,7 +52,7 @@ const js = () => {
             },
          })
       )
-      .pipe($.gulp.dest($.path.js.pub));
+      .pipe($.gulp.dest($.path.js.dev));
 };
 const vendorJs = () => {
    return $.gulp
@@ -62,33 +67,28 @@ const vendorJs = () => {
       .pipe(
          $.compiler({
             mode: "production",
-            cache: false,
+            cache: true,
+            devtool: "source-map",
             output: {
                filename: "vendor.min.js",
             },
          })
       )
-      .pipe($.gulp.dest($.path.vendorJs.pub));
+      .pipe($.gulp.dest($.path.vendorJs.dev));
 };
 const video = () => {
    return $.gulp
       .src($.path.video.src)
       .pipe($.app.size({ title: "Размер файлов:" }))
-      .pipe($.gulp.dest($.path.video.pub));
+      .pipe($.gulp.dest($.path.video.dev));
 };
 const webp = () => {
    return $.gulp
-      .src($.path.webp.src.pub)
+      .src($.path.webp.src.dev)
       .pipe($.app.size({ title: "Размер до конвертации:" }))
       .pipe($.app.webp())
       .pipe($.app.size({ title: "Размер после конвертации:" }))
-      .pipe($.gulp.dest($.path.webp.pub));
-};
-const admin = () => {
-   return $.gulp
-      .src($.path.admin.src)
-      .pipe($.app.size({ title: "Размер файлов:" }))
-      .pipe($.gulp.dest($.path.admin.pub));
+      .pipe($.gulp.dest($.path.webp.dev));
 };
 
 /* Экспортируем таски в модули */

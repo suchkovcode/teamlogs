@@ -1,0 +1,7 @@
+gulp/
+.gitignore
+.prettierignore
+.prettierrc.json
+gulpfile.js
+babel.config.json
+*.js.map

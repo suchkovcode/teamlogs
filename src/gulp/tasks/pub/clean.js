@@ -3,5 +3,4 @@ const clean = () => {
       .pipe($.app.clean());
 };
 
-/* Экспортируем таски в модули */
 module.exports = clean;

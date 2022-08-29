@@ -14,10 +14,8 @@ const html = () => {
             basepath: "./src/",
          })
       )
-      .pipe($.app.size({ title: "Размер до сжатия:" }))
-      .pipe($.app.htmlmin({ collapseWhitespace: true, removeComments: true }))
-      .pipe($.app.size({ title: "Размер после сжатия:" }))
-      .pipe($.gulp.dest($.path.html.pub));
+      .pipe($.gulp.dest($.path.html.dev))
+      .pipe($.browserSync.stream());
 };
 
 module.exports = html;
