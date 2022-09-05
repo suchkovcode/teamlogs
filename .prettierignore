@@ -1,4 +1,10 @@
-/build
-/coverage
+build/
+dist/
+public/
+package-lock.json
+**/.git
+**/.svn
+**/.hg
+**/node_modules
 .gitignore
 .eslintignore

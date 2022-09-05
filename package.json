@@ -7,7 +7,8 @@
       "start": "gulp dev",
       "build": "gulp",
       "public": "gulp pub",
-      "zip": "gulp zip"
+      "zip": "gulp zip",
+      "check": "npx prettier --check ."
    },
    "browserslist": [
       "last 1 versions"
