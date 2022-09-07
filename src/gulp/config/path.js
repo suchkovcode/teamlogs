@@ -26,7 +26,7 @@ const path = {
       src: "./src/js/script.js",
       dev: "./build/js/",
       pub: "./public/js/",
-      watch: ["./src/js/**/*.js", "!./src/js/vendor.js" ]
+      watch: ["./src/js/**/*.js", "!./src/js/vendor.js"],
    },
    img: {
       src: "./src/img/**/*",
