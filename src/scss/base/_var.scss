@@ -1,33 +1,25 @@
 :root {
-   --color_base: #ffffff;
+   --color_base: #fff;
    --color_primary: #2961f6;
    --color_secondary: #1b3fa1;
    --color_baground: #f7f7f7;
    --color_text: #1b1b28;
    --color_placeholder: #bbbbbf;
-
    --color_btn_primary: #1b3fa1;
-   --color_btn_primary_hover: #2961f6; 
+   --color_btn_primary_hover: #2961f6;
    --color_btn_secondary: #f7f7f7;
    --color_btn_secondary_hover: #2961f6;
-
-   --text_menu: 500 20px/1.3 'Inter';
-   --text_btn: 500 clamp(1rem, 0.8963rem + 0.4878vw, 1.25rem)/1.5 'Inter'; /* 16px - 20px */
-
-   --title: 900 clamp(2.1rem, 1.1588rem + 4.4293vw, 4.37rem)/1.2 'Inter'; /* 35px - 70px */
-   --title_2: 700 clamp(2rem, 1.2744rem + 3.4146vw, 3.75rem)/1.2 'Inter'; /* 32px - 60px */
-   --title_3: 700 clamp(1.56rem, 1.3029rem + 1.2098vw, 2.18rem)/1.3 'Inter'; /* 25px - 35px */
-   
-   --subtitle: 400 clamp(1.25rem, 0.8644rem + 1.8146vw, 2.18rem)/1.5 'Inter';
-   --paragraf: 400 clamp(1rem, 0.9502rem + 0.2341vw, 1.12rem)/1.5 'Inter';
+   --text_menu: 500 20px/1.3 "Inter";
+   --text_btn: 500 clamp(1rem, 0.8963rem + 0.4878vw, 1.25rem) / 1.5 "Inter"; /* 16px - 20px */
+   --title: 900 clamp(2.1rem, 1.1588rem + 4.4293vw, 4.37rem) / 1.2 "Inter"; /* 35px - 70px */
+   --title_2: 700 clamp(2rem, 1.2744rem + 3.4146vw, 3.75rem) / 1.2 "Inter"; /* 32px - 60px */
+   --title_3: 700 clamp(1.56rem, 1.3029rem + 1.2098vw, 2.18rem) / 1.3 "Inter"; /* 25px - 35px */
+   --subtitle: 400 clamp(1.25rem, 0.8644rem + 1.8146vw, 2.18rem) / 1.5 "Inter";
+   --paragraf: 400 clamp(1rem, 0.9502rem + 0.2341vw, 1.12rem) / 1.5 "Inter";
 }
-
-
-
-
 
 @media (min-width: 576px) {
    :root {
-      --text_menu: 500 16px/1.3 'Inter';
+      --text_menu: 500 16px/1.3 "Inter";
    }
 }

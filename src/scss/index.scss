@@ -1,17 +1,16 @@
-@import 'base/reset';
-@import 'base/var';
-@import 'base/fonts';
-@import 'base/global';
+@import "base/reset";
+@import "base/var";
+@import "base/fonts";
+@import "base/global";
 
-@import 'components/header';
-@import 'components/button';
-@import 'components/text';
-@import 'components/footer';
+@import "components/header";
+@import "components/button";
+@import "components/text";
+@import "components/footer";
 
-
-@import 'page/index/section-1';
-@import 'page/index/section-2';
-@import 'page/index/section-3';
-@import 'page/index/section-4';
-@import 'page/index/section-5';
-@import 'page/index/section-6';
+@import "page/index/section-1";
+@import "page/index/section-2";
+@import "page/index/section-3";
+@import "page/index/section-4";
+@import "page/index/section-5";
+@import "page/index/section-6";

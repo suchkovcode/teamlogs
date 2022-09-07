@@ -3,43 +3,47 @@
    flex-flow: column;
    gap: 10px;
 }
+
 .btn-primary {
-   cursor: pointer;
-   width: 100%;  
-   max-width: 320px;
-   height: 60px;
-   font: var(--text_btn);
-   color: var(--color_base);
-   border-radius: 0.8em;
-   background-color: var(--color_btn_primary);
-   transition: all 0.1s linear;
-}
-.btn-primary:hover {
-   background-color: var(--color_btn_primary_hover);
-}
-.btn-secondary {
-   cursor: pointer;
    width: 100%;
    max-width: 320px;
    height: 60px;
+   color: var(--color_base);
    font: var(--text_btn);
-   color: var(--color_text);
-   border-radius:  0.8em;
-   background-color: var(--color_btn_secondary);
+   background-color: var(--color_btn_primary);
+   border-radius: 0.8em;
+   cursor: pointer;
    transition: all 0.1s linear;
 }
+
+.btn-primary:hover {
+   background-color: var(--color_btn_primary_hover);
+}
+
+.btn-secondary {
+   width: 100%;
+   max-width: 320px;
+   height: 60px;
+   color: var(--color_text);
+   font: var(--text_btn);
+   background-color: var(--color_btn_secondary);
+   border-radius: 0.8em;
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+
 .btn-secondary:hover {
    color: var(--color_base);
    background-color: var(--color_btn_secondary_hover);
 }
 
-
 /* Modife */
 .btn-primary--section-1 {
    height: 80px;
    color: var(--color_base);
-   font: 500 24px/1.5 'Inter';
+   font: 500 24px/1.5 "Inter";
 }
+
 .btn-primary--section-1:hover {
    color: var(--color_text);
    background-color: var(--color_base);
@@ -47,7 +51,7 @@
 
 .btn-primary--section-5 {
    height: 80px;
-   font: 500 24px/1.5 'Inter';
+   font: 500 24px/1.5 "Inter";
 }
 
 @media (min-width: 576px) {
@@ -73,6 +77,7 @@
       font-size: 16px;
       border-radius: 0.7em;
    }
+
    .btn-secondary--header {
       width: 90px;
       height: 45px;

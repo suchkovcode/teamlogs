@@ -2,33 +2,38 @@
    max-width: 1160px;
    margin: 0 auto;
 }
+
 .header {
    margin: 30px 0;
 }
+
 .section {
    margin-bottom: 30px;
 }
 
 .title {
-   font: 700 25px/1.5 "Inter";
    color: var(--color__text);
+   font: 700 25px/1.5 "Inter";
 }
+
 .title-2 {
    margin-bottom: 10px;
+   color: var(--color__text);
    font: 600 16px/1.5 "Inter";
-   color: var(--color__text);
 }
+
 .paragraf {
-   font: 400 16px/1.5 "Inter";
-   color: var(--color__text);
    margin-bottom: 5px;
+   color: var(--color__text);
+   font: 400 16px/1.5 "Inter";
 }
 
 .paragraf-list,
 .paragraf-list__item {
-   list-style-type: disc;
    margin-left: 15px;
+   list-style-type: disc;
 }
+
 .paragraf-list {
    margin-bottom: 30px;
 }
