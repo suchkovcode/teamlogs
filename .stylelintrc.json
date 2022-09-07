@@ -1,0 +1,128 @@
+{
+   "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss", "stylelint-config-rational-order"],
+   "plugins": ["stylelint-order", "stylelint-config-rational-order/plugin"],
+   "rules": {
+      "indentation": 3,
+      "string-quotes": "double",
+      "order/order": [
+         "custom-properties",
+         "dollar-variables",
+         {
+            "type": "at-rule",
+            "name": "include",
+            "hasBlock": false
+         },
+         "declarations",
+         {
+            "type": "rule",
+            "selector": "&::before"
+         },
+         {
+            "type": "rule",
+            "selector": "&::after"
+         },
+         "rules",
+         {
+            "type": "rule",
+            "selector": "&:link"
+         },
+         {
+            "type": "rule",
+            "selector": "&:visited"
+         },
+         {
+            "type": "rule",
+            "selector": "&:focus"
+         },
+         {
+            "type": "rule",
+            "selector": "&:hover"
+         },
+         {
+            "type": "rule",
+            "selector": "&:active"
+         },
+         {
+            "type": "rule",
+            "selector": "&:disabled"
+         },
+         {
+            "type": "rule",
+            "selector": "&:first-child"
+         },
+         {
+            "type": "rule",
+            "selector": "&:last-child"
+         },
+         {
+            "type": "rule",
+            "selector": "&:nth-child.+"
+         },
+         {
+            "type": "rule",
+            "selector": "&\\[[^\\[\\]]+\\]"
+         },
+         {
+            "type": "rule",
+            "selector": "&\\..+"
+         },
+         {
+            "type": "rule",
+            "selector": "&--.+"
+         },
+         {
+            "type": "rule",
+            "selector": ".* &"
+         },
+         {
+            "type": "at-rule",
+            "name": "include",
+            "hasBlock": true
+         },
+         "at-rules"
+      ],
+      "color-no-invalid-hex": true,
+      "property-no-vendor-prefix": null,
+      "selector-class-pattern": null,
+      "selector-pseudo-class-no-unknown": true,
+      "named-grid-areas-no-invalid": true,
+      "function-calc-no-unspaced-operator": true,
+      "shorthand-property-no-redundant-values": true,
+      "function-linear-gradient-no-nonstandard-direction": true,
+      "string-no-newline": true,
+      "unit-no-unknown": true,
+      "keyframe-declaration-no-important": true,
+      "custom-property-no-missing-var-function": true,
+      "no-duplicate-selectors": true,
+      "custom-property-pattern": null,
+      "no-invalid-double-slash-comments": true,
+      "no-invalid-position-at-import-rule": true,
+      "comment-no-empty": true,
+      "no-duplicate-at-import-rules": true,
+      "declaration-block-no-duplicate-custom-properties": true,
+      "declaration-block-no-duplicate-properties": true,
+      "declaration-block-no-shorthand-property-overrides": true,
+      "declaration-empty-line-before": "never",
+      "font-family-name-quotes": "always-unless-keyword",
+      "font-family-no-missing-generic-family-keyword": null,
+      "block-no-empty": [
+         true,
+         {
+            "ignore": "comments"
+         }
+      ],
+      "property-no-unknown": [
+         true,
+         {
+            "checkPrefixed": true
+         }
+      ],
+      "rule-empty-line-before": [
+         "always",
+         {
+            "except": "first-nested",
+            "ignore": "after-comment"
+         }
+      ]
+   }
+}
