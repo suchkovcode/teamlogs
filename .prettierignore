@@ -1,6 +1,9 @@
+admin/
 build/
 dist/
 public/
+img/
+fonts/
 package-lock.json
 **/.git
 **/.svn
@@ -8,3 +11,4 @@ package-lock.json
 **/node_modules
 .gitignore
 .eslintignore
+.gitkeep
