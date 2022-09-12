@@ -1,4 +1,10 @@
-gulp/
+admin/
+build/
+dist/
+public/
+img/
+fonts/
+node_modules/
 .gitignore
 .prettierignore
 .prettierrc.json
