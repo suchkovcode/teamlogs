@@ -1,6 +1,6 @@
 .section-5 {
-   padding: 60px 0;
    contain: layout paint;
+   padding: 60px 0;
 }
 
 .section-5__title-1 {
@@ -11,10 +11,10 @@
 .step-box {
    display: flex;
    flex-flow: column;
-   gap: 50px;
    max-width: 460px;
    margin-bottom: 40px;
    padding: 0 15px;
+   gap: 50px;
 }
 
 .step {
@@ -26,8 +26,8 @@
 .step__picture {
    width: 60px;
    height: 60px;
-   background-color: var(--color_baground);
    border-radius: 15px;
+   background-color: var(--color_baground);
 }
 
 .bullet {
@@ -38,18 +38,18 @@
 
 .bullet__item {
    display: flex;
-   gap: 10px;
    align-items: flex-start;
    font: 400 18px/1.5 "Inter";
+   gap: 10px;
 }
 
 .bullet__item::before {
+   content: "";
    min-width: 5px;
    min-height: 5px;
    margin-top: 10px;
-   background-color: var(--color_text);
    border-radius: 50%;
-   content: "";
+   background-color: var(--color_text);
 }
 
 .step__mark {
@@ -92,9 +92,9 @@
 
    .step-box {
       flex-flow: row;
-      gap: 30px;
       max-width: 940px;
       margin-bottom: 60px;
+      gap: 30px;
    }
 }
 
