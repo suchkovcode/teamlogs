@@ -1,3 +1,4 @@
+// @ts-nocheck
 const zip = () => {
    return $.gulp
       .src($.path.zip.src)

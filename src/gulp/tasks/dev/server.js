@@ -1,3 +1,4 @@
+// @ts-nocheck
 const server = () => {
    $.browserSync.init({
       server: "./build",
@@ -22,8 +23,6 @@ const server = () => {
    );
    $.gulp.watch($.path.fonts.watch, $.gulp.series($.task.dev.clean.fonts, $.task.dev.transfer.fonts));
    $.gulp.watch($.path.video.watch, $.gulp.series($.task.dev.clean.video, $.task.dev.transfer.video));
-   $.gulp.watch($.path.js.watch, $.task.dev.transfer.js);
-   $.gulp.watch($.path.vendorJs.watch, $.task.dev.transfer.vendorJs);
    $.gulp.watch("./src/data/*.json", $.gulp.series($.task.dev.html, $.task.dev.htmlInclude));
 };
 

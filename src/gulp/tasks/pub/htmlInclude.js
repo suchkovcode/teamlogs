@@ -1,3 +1,4 @@
+// @ts-nocheck
 const htmlInclude = () => {
    return $.gulp
       .src($.path.html.src.comp)

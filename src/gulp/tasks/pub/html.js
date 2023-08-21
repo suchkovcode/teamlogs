@@ -1,3 +1,4 @@
+// @ts-nocheck
 const html = () => {
    return $.gulp
       .src($.path.html.src.page)

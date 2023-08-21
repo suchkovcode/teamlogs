@@ -1,3 +1,4 @@
+// @ts-nocheck
 const cleanBuild = () => {
    return $.gulp.src("build/*").pipe($.app.clean());
 };
@@ -14,7 +15,7 @@ const cleanWebp = () => {
    return $.gulp.src("build/img/webp/").pipe($.app.clean());
 };
 
-/* Экспортируем таски в модули */
+
 module.exports = {
    build: cleanBuild,
    img: cleanImg,
