@@ -35,8 +35,6 @@
       <link rel="apple-touch-icon" href="/img/icon/favicon-152x152.png" type="image/png" sizes="152x152" />
       <link rel="apple-touch-startup-image" href="/img/icon/favicon-start.png" type="image/png" />
 
-      <!-- Подключенный манифест -->
-      <link rel="manifest" href="manifest.json" />
 
       <!-- Опен граф мета теги -->
       <meta property="og:title" content="Teamlogs –online transcription of audio and video" />
@@ -49,16 +47,6 @@
          content="Transcription from 7 rubles per minute. Speech transcription, punctuation, editing in the browser, export to docx *.srt" />
       <meta property="og:country-name" content="RU" />
       <meta property="og:locality" content="St. Petersburg" />
-
-      <!-- Yandex мета теги -->
-      <meta name="yandex-verification" content="572f3076bb52221c" />
-
-      <!-- FB мета теги -->
-      <meta property="fb:app_id" content="257953674358265" />
-      <meta name="facebook-domain-verification" content="bihtatyrtoa9pleis5bdphksq8qe74" />
-
-      <!-- TW мета теги -->
-      <meta name="twitter:card" content="summary_large_image" />
    </head>
    <body class="page">
       @include('html/components/header.html')
@@ -514,10 +502,5 @@
          </section>
       </main>
       @include('html/components/footer.html')
-      <script type="module" async>
-         import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
-         const el = document.createElement("pwa-update");
-         document.body.appendChild(el);
-      </script>
    </body>
 </html>
