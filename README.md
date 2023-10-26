@@ -21,7 +21,7 @@
          <img src="./src/img/md/GTmetrix.png" alt="Картинка" />
       </td>
       <td>
-         <img src="./src/img/md/w3w.png?v1" alt="Картинка" />
+         <img src="./src/img/md/w3w.jpg" alt="Картинка" />
       </td>
    </tr>
 </table>
