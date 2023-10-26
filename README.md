@@ -1,4 +1,4 @@
-# Скорость и производительность сайта
+# Website speed and performance
 
 **Google page speed**
 
